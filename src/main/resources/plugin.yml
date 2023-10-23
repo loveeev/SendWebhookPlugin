@@ -1,0 +1,13 @@
+name: DiscordZimoxy2
+version: '${project.version}'
+main: dev.loveeev.discordzimoxy2.DiscordZimoxy2
+api-version: '1.16'
+commands:
+  ban:
+    description: lol
+    permission: admin.ban
+
+permissions:
+  admin.ban:
+    description: lol
+    default: op
